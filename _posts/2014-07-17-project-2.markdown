@@ -1,16 +1,14 @@
 ---
-title: 콜케어 서비스
+title: Call Care Service
 subtitle: Website Design
 layout: default
 modal-id: 2
 date: 2014-07-17
 image: /img/posts/2/2.gif
 ---
-
-## 보다 쉽고 빠른 
-## 음성 채팅이 필요하신가요?
-
-텍스트 채팅이 어려운 경우에도 걱정하지 마세요!
-Hello World가 TTS & STT 기술을 활용해 음성으로도 상담이 가능합니다. 타이핑 없이 목소리만으로 질문하고, 답변도 음성으로 간편하게 들어보세요. 
-보다 자연스럽고 편리한 방식으로 소통할 수 있어, 텍스트 입력이 불편한 상황에서도 원활한 상담이 가능합니다. 
-Hello World와 함께 더 쉽고 빠르게, 음성 채팅으로 모든 궁금증을 해결해 보세요!
+## Need an easier and faster 
+## voice chat option?
+Don't worry even if text chatting is difficult!
+Hello World enables voice consultations using TTS & STT technology. Ask questions with just your voice, no typing needed, and listen to answers conveniently through audio. 
+This allows for more natural and convenient communication, making smooth consultations possible even in situations where text input is inconvenient. 
+With Hello World, resolve all your questions more easily and quickly through voice chat!
