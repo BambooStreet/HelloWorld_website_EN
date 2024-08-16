@@ -1,15 +1,13 @@
 ---
-title: 나를 위한 채용 공고
+title: Job Postings Tailored for You
 subtitle: Website Design
 layout: default
 modal-id: 5
 date: 2014-07-14
 image: /img/posts/5/5.gif
 ---
-
-## "나를 위한 채용공고"로 
-## 당신에게 딱 맞는 일자리를 만나보세요!
-
-- **신뢰받는 취업 플랫폼 연동**: **"서울외국인포털"**, **"클릭"** 등 검증된 플랫폼에서 최신 채용 공고를 확인하세요.
-- **언어별 필터링**: 필요한 언어로 손쉽게 채용 공고를 필터링해 정확한 정보만 받아보세요.
-- **간편한 이메일 지원**: 작성해둔 이력서를 바탕으로 클릭 한 번에 이메일 지원까지 완료하세요!
+## Find the perfect job for you 
+## with "Job Postings Tailored for You"!
+- **Integration with trusted employment platforms**: Check the latest job postings from verified platforms like **"Seoul Global Center"** and **"CLICK"**.
+- **Language-based filtering**: Easily filter job postings by required languages to receive only the most relevant information.
+- **Simple email application**: Complete your email application with just one click, based on your prepared resume!
