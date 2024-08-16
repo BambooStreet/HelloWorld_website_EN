@@ -1,12 +1,12 @@
 url: https://bamboostreet.github.io
-baseurl: /HelloWorld_website
+baseurl: /HelloWorld_website_EN
 
 # Site settings
 title: HelloWorld
 email: ohmyhong1234@gmail.com
 description: "외국인 근로자를 위한 AICC HelloWorld입니다!"
 
-lang: ko
+lang: en
 timezone: Asia/Seoul
 
 # Team names, titles and social links
