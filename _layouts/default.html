@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+    {% include news.html %}
+    {% include services.html %}
+    {% include portfolio_grid.html %}
+    <!-- 1. 채팅 기능 -->
+    <!-- 2. 콜 기능 -->
+    <!-- 3. 상담사 지원 서비스 -->
+    <!-- 4. 방문 상담 예약 서비스 -->
+    <!-- 5. 이력서 작성, 면접 질문 준비 -->
+    <!-- 6. 채용 공고 + 지원한 회사에 따른 상담 키워드 노출 -->
+    
+    {% include effects.html %}
+    {% include about.html %}
+    {% include team.html %}
+    <!-- {% include clients.html %} -->
+    <!-- {% include contact.html %} -->
+    <!-- {% include footer.html %} -->
+    {% include modals.html %}
+    {% include js.html %}
+<!-- https://www.notion.so/yeowonh/Tech-wiki-b1339f5b29bf416d9b966b27cbfc2ac1 링크 추가하기 -->
+  
+
+<!-- 컨텐츠 박스 코드 -->
+<script>
+  function showPost(id) {
+    // 모든 portfolio-item에서 'selected' 클래스 제거
+    $('.portfolio-item').removeClass('selected');
+    
+    // 클릭된 아이템에 'selected' 클래스 추가
+    $(`.portfolio-item:has(a[onclick="showPost('${id}')"])`).addClass('selected');
+
+    var contentImage = document.getElementById('content-image');
+    var contentText = document.getElementById('content-text');
+    var postContent = document.getElementById('post-content-' + id);
+    
+    if (postContent) {
+        var postImage = postContent.querySelector('.post-image');
+        var postText = postContent.querySelector('.post-text');
+        
+        contentImage.innerHTML = postImage.innerHTML;
+        contentText.innerHTML = postText.innerHTML;
+    }
+      
+      // 컨텐츠 박스로 스크롤
+      // document.getElementById('content-display').scrollIntoView({behavior: 'smooth'});
+  }
+  // 페이지 로드 시 첫 번째 포스트 표시
+  document.addEventListener('DOMContentLoaded', function() {
+    var firstPostId = document.querySelector('.portfolio-item').getAttribute('onclick').match(/'(.+?)'/)[1];
+    showPost(firstPostId);
+  });
+  </script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+url: https://bamboostreet.github.io
+baseurl: /HelloWorld_website
+
+# Site settings
+title: HelloWorld
+email: ohmyhong1234@gmail.com
+description: "외국인 근로자를 위한 AICC HelloWorld입니다!"
+
+lang: ko
+timezone: Asia/Seoul
+
+# Team names, titles and social links
+people:
+- name: 홍석주
+  pic: 1
+  position: AI
+  social:
+    - title: github
+      url: https://github.com/BambooStreet
+
+
+- name: 황예원
+  pic: 2
+  position: AI
+  social:
+    - title: github
+      url: https://github.com/yeowonh
+
+
+- name: 이윤서
+  pic: 3
+  position: FE
+  social:
+    - title: github
+      url: https://github.com/yunseoLee0343
+
+
+- name: 이승우
+  pic: 4
+  position: BE
+  social:
+    - title: github
+      url: https://github.com/ls-rain
+
+
+- name: 황주훈
+  pic: 5
+  position: BE
+  social:
+    - title: github
+      url: https://github.com/jjjuhoon
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: https://github.com/HelloWorld-AICC
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# 배포 설정
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+
+github: [metadata]
+
+include:
+  - _headers

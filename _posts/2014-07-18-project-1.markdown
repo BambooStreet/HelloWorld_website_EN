@@ -1,0 +1,24 @@
+---
+title: 상담 챗봇
+subtitle: 
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: dreams.png
+thumbnail: 
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+image: /img/posts/1/chatbot_demo_final.gif
+---
+
+
+## 내 손 안의 상담사, 
+## Hello World와 함께!
+
+근로를 하며 **부당한 일**을 겪었나요?<br>
+한국 생활에 **궁금한 점**이 생겼나요?<br>
+**언어 장벽**이 걱정되시나요?<br>
+내 손 안의 외국인 지원 상담사, **Hello World**에게 무엇이든 질문해주세요!<br>
+Hello World는 24시간 언제든지 당신의 곁에서 도움을 드립니다. 근로 권리, 생활 정보, 법적 지원까지, 당신이 필요로 하는 모든 정보와 상담을 쉽게 받아보세요.

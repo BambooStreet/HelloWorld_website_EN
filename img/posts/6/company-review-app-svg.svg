@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500">
+  <!-- Background -->
+  <rect width="300" height="500" fill="#f0f0f0"/>
+  
+  <!-- App header -->
+  <rect width="300" height="60" fill="#4a90e2"/>
+  <text x="20" y="40" font-family="Arial, sans-serif" font-size="24" fill="white">HelloWorld Job Evaluation</text>
+  
+  <!-- Search bar -->
+  <rect x="10" y="70" width="280" height="40" rx="20" fill="white" stroke="#ddd" stroke-width="2"/>
+  <text x="50" y="95" font-family="Arial, sans-serif" font-size="14" fill="#999">기업 검색...</text>
+  <circle cx="30" cy="90" r="8" fill="none" stroke="#999" stroke-width="2"/>
+  <line x1="36" y1="96" x2="42" y2="102" stroke="#999" stroke-width="2"/>
+  
+  <!-- Company card -->
+  <rect x="10" y="120" width="280" height="150" rx="10" fill="white" stroke="#ddd" stroke-width="2"/>
+  <text x="20" y="150" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">테크코리아 주식회사</text>
+  <text x="20" y="175" font-family="Arial, sans-serif" font-size="14" fill="#666">소프트웨어 개발</text>
+  
+  <!-- Rating -->
+  <text x="20" y="205" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#4a90e2">4.2</text>
+  <text x="60" y="205" font-family="Arial, sans-serif" font-size="14" fill="#666">out of 5</text>
+  
+  <!-- Stars -->
+  <g transform="translate(20, 220) scale(0.7)">
+    <path d="M12 2 L15.09 8.26 L22 9.27 L17 14.14 L18.18 21.02 L12 17.77 L5.82 21.02 L7 14.14 L2 9.27 L8.91 8.26 L12 2" fill="#FFD700" stroke="#FFD700" stroke-width="2"/>
+    <path d="M36 2 L39.09 8.26 L46 9.27 L41 14.14 L42.18 21.02 L36 17.77 L29.82 21.02 L31 14.14 L26 9.27 L32.91 8.26 L36 2" fill="#FFD700" stroke="#FFD700" stroke-width="2"/>
+    <path d="M60 2 L63.09 8.26 L70 9.27 L65 14.14 L66.18 21.02 L60 17.77 L53.82 21.02 L55 14.14 L50 9.27 L56.91 8.26 L60 2" fill="#FFD700" stroke="#FFD700" stroke-width="2"/>
+    <path d="M84 2 L87.09 8.26 L94 9.27 L89 14.14 L90.18 21.02 L84 17.77 L77.82 21.02 L79 14.14 L74 9.27 L80.91 8.26 L84 2" fill="#FFD700" stroke="#FFD700" stroke-width="2"/>
+    <path d="M108 2 L111.09 8.26 L118 9.27 L113 14.14 L114.18 21.02 L108 17.77 L101.82 21.02 L103 14.14 L98 9.27 L104.91 8.26 L108 2" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="2"/>
+  </g>
+  
+  <!-- Review snippet -->
+  <text x="20" y="250" font-family="Arial, sans-serif" font-size="14" fill="#333">"Great work environment, challenging projects..."</text>
+  
+  <!-- Other companies -->
+  <rect x="10" y="280" width="280" height="60" rx="10" fill="white" stroke="#ddd" stroke-width="2"/>
+  <text x="20" y="315" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">혁신기술 주식회사</text>
+  <text x="250" y="315" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4a90e2">3.8</text>
+  
+  <rect x="10" y="350" width="280" height="60" rx="10" fill="white" stroke="#ddd" stroke-width="2"/>
+  <text x="20" y="385" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">글로벌소프트 유한회사</text>
+  <text x="250" y="385" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4a90e2">4.5</text>
+  
+  <!-- Navigation bar -->
+  <rect y="460" width="300" height="40" fill="#4a90e2"/>
+  <circle cx="50" cy="480" r="15" fill="white"/>
+  <circle cx="150" cy="480" r="15" fill="white"/>
+  <circle cx="250" cy="480" r="15" fill="white"/>
+</svg>
