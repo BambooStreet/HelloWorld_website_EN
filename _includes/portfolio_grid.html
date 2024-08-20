@@ -45,15 +45,24 @@
     </section>
 
     
-
-    <!-- Hidden Post Contents -->
-    {% for post in site.posts %}
-    <div id="post-content-{{ post.modal-id }}" style="display: none;">
-        <div class="post-image">
-            <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" style="width: 600px; height: 600px;">
-        </div>
-        <div class="post-text">
-            {{ post.content | markdownify }}
-        </div>
+  
+<!-- Hidden Post Contents -->
+{% for post in site.posts %}
+<div id="post-content-{{ post.modal-id }}" style="display: none;">
+    <div class="post-image">
+        {% if post.youtube_id %}
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ post.youtube_id }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        {% elsif post.video %}
+            <video controls style="width: 100%; max-width: 600px; height: auto;">
+                <source src="{{ site.baseurl }}{{ post.video }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        {% else %}
+            <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}" style="width: 100%; max-width: 600px; height: 600px;">
+        {% endif %}
     </div>
-    {% endfor %}
+    <div class="post-text">
+        {{ post.content | markdownify }}
+    </div>
+</div>
+{% endfor %}

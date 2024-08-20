@@ -4,7 +4,8 @@ subtitle: Website Design
 layout: default
 modal-id: 2
 date: 2014-07-17
-image: /img/posts/2/2.gif
+# image: /img/posts/2/2.gif
+youtube_id: 3fRsnbHizXg
 ---
 ## Need an easier and faster 
 ## voice chat option?
