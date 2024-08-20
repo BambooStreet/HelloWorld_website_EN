@@ -13,3 +13,9 @@ Don't worry even if text chatting is difficult!
 Hello World enables voice consultations using TTS & STT technology. Ask questions with just your voice, no typing needed, and listen to answers conveniently through audio. 
 This allows for more natural and convenient communication, making smooth consultations possible even in situations where text input is inconvenient. 
 With Hello World, resolve all your questions more easily and quickly through voice chat!
+
+
+<br>
+
+#### 0:00 ~ 1:18 Korean
+#### 1:18 ~ 1:49 English
